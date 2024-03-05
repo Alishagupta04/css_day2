@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kode Mono", monospace;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    background-image: url("images/solid-light-purple-byblfdqa1zbhngf9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    cursor: pointer;
+}
+.root{
+    width: 360px;
+    height: 360px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    border: 2px solid #c597f1;
+    position: absolute;
+    top: 20%;
+    padding: 10px;
+    box-shadow: rgb(140 46 225) 6px 6px 16px 5px;
+}
+.root .rootbutton{
+    padding: 20px 10px;
+    width: 100%;
+    height: 34%;
+}
+.root .rootbutton button{
+
+    border: 0;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    background:white;
+    border: 2px solid #c597f1;
+    border-radius: 20px;
+    padding: 4px;
+    color: rgb(140 46 225);
+    box-shadow: rgb(152 86 211) 3px 6px 2px 1px;
+}
+.root button:hover{
+    background-color: rgb(140 46 225);
+    color: white;
+    border: 2px solid blueviolet;
+}
+.container h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    border-bottom: 2px solid blueviolet;
+}
+.container h1 span{
+    font-size: 38px;
+    font-weight: 600;
+    color: rgb(155, 72, 233);
+}
+.container p{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.container .inputPass{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+}
+.container .inputPass input{
+    border: 2px solid white;
+    color: white;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background: transparent;
+    border-radius: 10%;
+}
+.container .generate{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-top: 10px;
+}
+.generate button{
+    border: 0;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    background:transparent;
+    border: 2px solid rgb(209, 195, 223);
+    border-radius: 20px;
+    padding: 4px;
+    color: white;
+    margin-bottom: 8px;
+    padding: 6px;
+}
+.root .clrcontainer{
+    height: 200px;
+    width: 325px;
+    margin: 5px;
+    margin-bottom: 10px;
+    transition: 2s;
+}
+.root .colorname{
+    background-color: blue;
+    margin: 5px;
+    width: 325px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.root .colorname:hover{
+    transition: .5s;
+    background-color: white;
+    color: purple;
+}
+.root .clrbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 50px;
+    margin-left: 5px;
+}
+.root .clrbutton button{
+    border: 0;
+    outline: 0;
+    height: 100%;
+    width: 162px;
+    font-size: 20px;
+    font-weight: 300;
+    background:transparent;
+    border: 2px solid rgb(209, 195, 223);
+    border-radius: 20px;
+    padding: 4px;
+    color: white;
+    margin: 10px 5px 5px 5px;
+    padding: 10px;
+}
+.root .clrbutton button:hover{
+    transition: .5s;
+    background-color: white;
+    color: purple;
+}
+.coordinatescontainer{
+    margin-top:  45px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.coordinatescontainer .input{
+    background-color: aquamarine;
+    width: 260px;
+    height: 50px;
+    margin: 15px;
+}
+
+.coordinatescontainer input{
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.coordinatescontainer button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    outline: none;
+}
